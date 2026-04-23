@@ -33,7 +33,7 @@ variable "is_eks_nodegroup_role_enabled" {
   type = bool
 }
 
-# EKS
+# EKS Cluster
 variable "is-eks-cluster-enabled" {}
 variable "cluster-version" {}
 variable "endpoint-private-access" {}
